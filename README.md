@@ -33,6 +33,10 @@ If you are developing a production application, we recommend using TypeScript an
 
     
 ## install thiss
+1. open in vs code 
+2. Open terminal ctrl + shift + `
+3. install depandencies
+
 
 
     npm install
