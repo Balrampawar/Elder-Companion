@@ -1,0 +1,109 @@
+.about-1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-top: 10vh;
+    align-items: center;
+    text-align: center;
+    /* background-color: #f0f0f0; */
+}
+.about-1-text{
+    display: flex;
+    /* flex-direction: c; */
+    justify-content: center;
+    align-items: center;
+    padding: 4vh;
+    flex-wrap: wrap;
+}
+.about-1 h1{
+    font-size: clamp(3rem ,3vh ,4rem);
+    color: #1a3f22;
+    margin-bottom: 2vh;
+
+}
+.about-1 p{
+    color: #1a3f22;
+    margin-bottom: 2vh;
+    /* width: 90%; */
+}
+.about-1 img{
+    width:350px;
+    /* margin-right: 4vh; */
+    border: #1a3f22 2px solid;
+}
+.about-2{
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid #1a3f22;
+    border-bottom: 2px solid #1a3f22;
+    padding: 4vh;
+}
+.about-2 p{
+    max-width: 700px;
+    color: #1a3f22;
+    margin-bottom: 2vh;
+    /* width: 90%; */
+}
+.about-2 h1{
+    font-size: clamp(3rem ,3vh ,4rem);
+    color: #1a3f22;
+    margin-bottom: 2vh;
+
+}
+.about-2 button{
+    padding: 2vh 4vh ;
+    border-radius: 30px;
+    border: none;
+    background-color: #1a3f22;
+    color: #fff;
+    
+}
+.about-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about-3 h1{
+    font-size: clamp(3rem ,4vh ,4rem);
+    color: #1a3f22;
+}
+.about-3-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8vh;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background-color: red;
+    margin-bottom: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: url("https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .card {
+        width: 180px;
+        height: 230px;
+    }
+}

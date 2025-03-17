@@ -1,0 +1,115 @@
+.services-section {
+    color: #1a3f22;
+    text-align: center;
+  }
+  .services-section h2{
+      font-size: clamp(3rem ,4vh ,4rem);
+      color: #1a3f22;
+      margin-top: 15vh;
+
+  }
+
+  
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    place-items: center;
+  }
+  
+  .service-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.844);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    width: 300px;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0,0.9);
+  }
+  
+  .service-icon img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+
+  }
+  
+  .service-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-desc {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .services-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .service-card {
+      padding: 1.2rem;
+    }
+  
+    .service-title {
+      font-size: 1.1rem;
+    }
+  
+    .service-desc {
+      font-size: 0.85rem;
+    }
+  }
+  
+  /* Service Details Modal */
+  .service-details {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 1.5rem;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  .service-details button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #228B22;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .service-details button:hover {
+    background: #1c7a1c;
+  }
+  
