@@ -31,10 +31,13 @@ If you are developing a production application, we recommend using TypeScript an
     "how to edit my profile": "You can edit your profile in the Account Settings section after logging in.",
     "how to change my password": "Go to Account Settings > Change Password to update your credentials.".
 
+    
+## install thiss
 
-    ##install this
-    cd frontend
+
     npm install
     npm install react-router
     npm install react-icons;
     npm install @emailjs/browser
+    npm run dev
+    
