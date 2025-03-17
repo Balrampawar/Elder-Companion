@@ -29,11 +29,12 @@ If you are developing a production application, we recommend using TypeScript an
     "what are the exercise options": "We offer guided exercises, yoga sessions, and light physical activities to promote wellness.",
     "do you offer emergency support": "Yes, we provide emergency assistance 24/7. Please call our emergency number if needed.",
     "how to edit my profile": "You can edit your profile in the Account Settings section after logging in.",
-    "how to change my password": "Go to Account Settings > Change Password to update your credentials.",
+    "how to change my password": "Go to Account Settings > Change Password to update your credentials.".
 
 
-    intsall
-    npm install react-icons;
-
-    npm install @emailjs/browser
+    ##install this
+    cd frontend
+    npm install
     npm install react-router
+    npm install react-icons;
+    npm install @emailjs/browser
